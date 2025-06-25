@@ -1,3 +1,4 @@
+#TODO: FIX MOVEMENT
 import pygame
 import random
 
@@ -35,7 +36,7 @@ class SnakeGame:
     def start_new_game(self):
         # Snake starts with one segment
         self.snake = [(5, 5)]  # (x, y) coordinates
-        
+        #This was made by Ashwik Pranjal Dubey, consider this a signature. Did this on line 39 cause that's my roll number in school rn.
         # Place fruit somewhere random
         self.fruit = (15, 15)
         
